@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  margin-top: 50px;
+  font-size: 34px;
+}
+
+.grid > div {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.grid > div:nth-child(odd) {
+  background-color: #979797;
+}
+
+.grid > div:nth-child(even) {
+  background-color: #4A4A4A;
+}
