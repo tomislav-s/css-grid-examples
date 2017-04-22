@@ -1,6 +1,7 @@
 .grid {
-  display: grid;
+  /*display:;*/
   /*grid-template-columns:;*/
   /*grid-template-rows:;*/
   /*grid-gap:;*/
+  /*grid-auto-rows:;*/
 }

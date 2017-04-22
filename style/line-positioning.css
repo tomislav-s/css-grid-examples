@@ -1,16 +1,16 @@
 .grid {
   display: grid;
-  grid-template-columns: 150px 150px 150px 150px;
-  grid-template-rows: 150px 150px 150px 150px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 250px 250px;
   grid-gap: 20px;
 }
 
 .grid-item {
-  /*order: 2;*/
+  /*order:;*/
 }
 
 .special-grid-item {
-  /*grid-column: 2 / 4;*/
-  /*grid-row: 1 / 3;*/
-  /*order: 1;*/
+  /*grid-column: ;*/
+  /*grid-row: ;*/
+  /*order:;*/
 }

@@ -2,12 +2,21 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Myriad Pro';
+}
+
 .grid {
   margin-top: 50px;
-  font-size: 34px;
+  font-size: 42px;
+  color: #D0011B;
 }
 
 .grid > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   padding: 20px;
   border-radius: 5px;
 }
@@ -18,4 +27,12 @@
 
 .grid > div:nth-child(even) {
   background-color: #4A4A4A;
+}
+
+.special-grid-item {
+  background-image: url('../duck.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 150px 150px;
+  background-color: #979797;
 }
